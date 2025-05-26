@@ -86,3 +86,9 @@ function isLightningShieldActive()
 	return Zorlen_checkBuffByName(SpellName)
 end
 
+-- Added by Pelvis
+function isWaterShieldActive()
+	local SpellName = LOCALIZATION_ZORLEN.WaterShield
+	return Zorlen_checkBuffByName(SpellName)
+end
+
