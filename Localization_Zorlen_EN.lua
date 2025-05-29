@@ -501,7 +501,7 @@ LOCALIZATION_ZORLEN = {}
 	LOCALIZATION_ZORLEN["RemoveLesserCurse"] = "Remove Lesser Curse"
 	LOCALIZATION_ZORLEN["Scorch"] = "Scorch"
 	LOCALIZATION_ZORLEN["SlowFall"] = "Slow Fall"
-
+	LOCALIZATION_ZORLEN["Clearcasting"] = "Clearcasting"
 
 
 -- Zorlen_Paladin.lua file Localization
