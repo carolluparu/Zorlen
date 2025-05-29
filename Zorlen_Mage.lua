@@ -656,7 +656,11 @@ function cast_ManaEfficient_Scorch(SpellRank, test)
 end
 
 
+--Added by Pelvis
+--Check if Clearcast proc is active
 
-
-
+function isClearcastingActive()
+	local SpellName = LOCALIZATION_ZORLEN.Clearcasting
+	return Zorlen_checkBuffByName(SpellName)
+end
 
